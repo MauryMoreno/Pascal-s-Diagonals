@@ -7,8 +7,8 @@ def generate_diagonal(n, l):
  
 
 def combinatoria(n,x):
-    comb=factorial(n)/factorial(x)/factorial(n-x)
-    return int(comb)
+    comb=factorial(n)//(factorial(x)*factorial(n-x))
+    return comb
 
 def factorial(n):
     fact=1
